@@ -12,7 +12,7 @@ const appRoutes: Routes = [
     path: 'home',
     component: DashboardComponent,
     data: {
-      title: 'Trang Chính'
+      title: 'Home'
     }
   }
 ]
