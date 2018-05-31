@@ -1,6 +1,6 @@
 {
   "license": "TVMS",
-  "repository": "https://gitlab.com/devfromhome/TVAMS-GRP.git",
+  "repository": "https://github.com/stieuquy/angular-nodejs-template-project.git",
   "scripts": {
     "start": "echo 'Use one of the following commands: npm run start:frontend, npm run start:backend'",
     "start:frontend": "cd frontend && npm start",
