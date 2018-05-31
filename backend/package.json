@@ -1,5 +1,5 @@
 {
-  "name": "tvms-rgp-backend",
+  "name": "backend",
   "version": "1.0.0",
   "main": "dist/src/app.js",
   "scripts": {
