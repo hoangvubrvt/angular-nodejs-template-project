@@ -1,0 +1,24 @@
+{
+  "license": "TVMS",
+  "repository": "https://gitlab.com/devfromhome/TVAMS-GRP.git",
+  "scripts": {
+    "start": "echo 'Use one of the following commands: npm run start:frontend, npm run start:backend'",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm run watch",
+    "start:prod": "cd backend && npm run start:prod",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "install:frontend": "cd frontend && npm install --only=dev",
+    "install:backend": "cd backend && npm install --only=dev",
+    "lint": "",
+    "lint:frontend": "cd frontend && ng lint",
+    "lint:backend": "cd backend && gulp tslint",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:docker": "npm run install:all && npm run build:prod && docker-compose build",
+    "build:docker:test": "npm run install:all && npm run build:prod && docker-compose down && docker-compose up --build",
+    "build:prod": "npm run build:frontend:prod && npm run build:backend:prod && cp -R ./frontend/dist/* ./backend/dist",
+    "build:backend": "cd backend && npm run build",
+    "build:backend:prod": "cd backend && npm run-script build",
+    "build:frontend": "cd frontend && npm run-script build",
+    "build:frontend:prod": "cd frontend && npm run-script build:prod"
+  }
+}

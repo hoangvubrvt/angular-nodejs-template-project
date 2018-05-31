@@ -1,0 +1,7 @@
+apps:
+  - script   : './dist/src/app.js'
+    name     : 'TVAMS-GRP'
+    exec_mode: 'cluster'
+    instances: 2
+    max_restarts: 10
+    

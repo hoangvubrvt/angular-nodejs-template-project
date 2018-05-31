@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  tvams-grp:
+    image: tvams-grp
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:80
