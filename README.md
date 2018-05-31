@@ -6,10 +6,10 @@ The backend was generated with NodeJS version 8.11.2
 
 # Development server
 The backend and frontend are developed by TypeScript.
-Run `npm run start:frontend` and `npm run start:backend` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run start:frontend` and `npm run start:backend` for a development environment. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 # Build
-Run `npm run build` to build backend and frontend. The build artifacts will be stored in the `dist/` directory. Use the `npm run build:prod` for a production build. For the production build, the contents of the folder frontend/dist/ will be copied to backend/dist/frontend.
+Run `npm run build` to build backend and frontend. The build artifacts will be stored in the `dist` directory. Use the `npm run build:prod` for a production build. For the production build, the contents of the folder frontend/dist/ will be copied to backend/dist/frontend.
 
 # Tests for frontend
 ## Running unit tests
