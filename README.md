@@ -1,3 +1,4 @@
+## The project is tested on MAC OS and Linux. If you are using Window, please check again the scripts in all package.json files
 # Frontend
 The frontend was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
