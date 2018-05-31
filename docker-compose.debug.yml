@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   tvams-grp:
-    image: tvams-grp
+    image: template
     build: .
     environment:
       NODE_ENV: development
